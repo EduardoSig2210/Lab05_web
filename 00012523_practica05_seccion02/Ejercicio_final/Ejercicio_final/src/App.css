@@ -1,0 +1,31 @@
+.cientificos-container {
+  display: grid;
+  gap: 20px;
+  justify-content: left;
+  margin: 10px;
+}
+
+.cientifico-card {
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 30px;
+  width: 450px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cientifico-card h3 {
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.cientifico-card p {
+  margin: 8px 0;
+}
+
+.cientifico-imagen {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
